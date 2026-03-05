@@ -85,4 +85,4 @@ systemctl status danted --no-pager
 
 # Вывод итоговой информации
 IP=$(hostname -I | awk '{print $1}')
-echo -e "\e[32m$IP:1080 radmir proxy RP_00 1\e[0m"
+echo -e "\e[38;5;51m$IP:1080 radmir proxy RP_00 1\e[0m"
